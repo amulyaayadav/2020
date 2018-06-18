@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+ struct sequence
+  {
+        char s1[100];
+        char s2[100];
+        char s[100];
+        int m;
+  };
+ struct sequences
+  {
+        struct sequence a[100];
+        int n;
+  };
+
+
+int input ()
+{
+        struct sequences k;
+        printf ("\n Enter the number of instances: ");
+        scanf ("%d",&k.n);
+         for (int i=0;i<k.n;i++)
+          {
+                printf ("\n Enter the number of sequences required in %d th instance: ",i+1 );
+                scanf ("%d",&k.a[i].m);
+                printf ("\n Enter 1st member of the %d th instance: ", i+1);
+                scanf ("%s", k.a[i].s1);
+                printf ("\n Enter the 2nd member of the %d th instance: ", i+1);
+                scanf ("%s", k.a[i].s2);
+           }
+}
+
+
+int main ()
+{
+ input ();
+}
