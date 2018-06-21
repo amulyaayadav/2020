@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct employee
+{
+ char name [100];
+ float wage;
+ int m;
+ float wage_card[100];
+};
+
+struct employees
+{
+ int n;
+struct employee a[100];
+};
+
+
+int input ()
+{
+ struct employee s;
+ printf ("\n Enter the name of the employee: ");
+ scanf ("%s", s.name);
+ printf ("\n Enter hourly wage:");
+
+}
+
+int main ()
+{
+        input();
+}
