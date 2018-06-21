@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct employee
+{
+ char name [100];
+ float wage;
+ float wage_card;
+};
+struct employees
+{
+ int n;
+struct employee a[100];
+};
+
+int input ()
+{
+
+}
+
+int main ()
+{
+        input();
+}
